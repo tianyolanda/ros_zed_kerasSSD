@@ -1,0 +1,34 @@
+#!/home/ogai1234/anaconda2/envs/tensorflow/bin/python
+
+# import pyzed.camera as zcam
+# import pyzed.defines as sl
+# import pyzed.types as tp
+# import pyzed.core as core
+import math
+import numpy as np
+from keras.applications.imagenet_utils import preprocess_input
+from keras.backend.tensorflow_backend import set_session
+from keras.preprocessing import image as keras_image
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import tensorflow as tf
+from keras import backend as K
+import math
+import time
+# import test_pkg.detect_kerasSSD
+from keras_ssd300 import ssd_300
+#import test_pkg.detect_fortest  
+import test_pkg.detect_NMS_ssd300
+#import test_pkg.detect_kerasSSD_new
+# from ssd_v2 import SSD300v2
+# from ssd_utils import BBoxUtility
+import cv2
+from detect_pkg.msg import OBJINFO
+import rospy
+import sys
+
+
+if __name__ == '__main__':
+	# test_pkg.detect_kerasSSD.main()
+	# test_pkg.detect_kerasSSD_new.main()
+	test_pkg.detect_NMS_ssd300.main()
