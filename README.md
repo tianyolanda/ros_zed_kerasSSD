@@ -53,9 +53,13 @@ hello_512
 are the program entrance. Each of them can rosrun after make them executable.
 
 ## weight file download
-
+https://drive.google.com/open?id=1mVDBgZ4u-6BS8GMYeR4j3UUpuHaMkiVe
+download the needed weight file and save it in detect_pkg/bin/
 
 ## Performance
-GTX GFORCE 1070: 7FPS
+GTX GFORCE 1070 
+
+ssd300: 13fps
+ssd512: 8fps
 
 
