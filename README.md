@@ -46,11 +46,11 @@ cd ~/catkin_ws
 roslaunch zed_wrapper zed.launch
 rosrun detect_pkg hello
 ```
-Note that:
-hello
-hello_ssd300
-hello_512
-are the program entrance. Each of them can rosrun after make them executable.
+- Note that: in detect_pkg/bin/
+- hello
+- hello_ssd300
+- hello_512
+- are the program entrance. Each of them can rosrun after make them executable.
 
 ## weight file download
 https://drive.google.com/open?id=1mVDBgZ4u-6BS8GMYeR4j3UUpuHaMkiVe
