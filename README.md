@@ -2,7 +2,7 @@
 A ros package for autonomous driving object detection.: ZED camera, ROS message, A keras implemented SSD 
 
 # detect_pkg
-zed_ros_kerasssd_pkg
+ros_zed_kerasSSD
 
 A ros package for autonomous driving object detection.
 
